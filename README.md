@@ -78,6 +78,7 @@ python3 r2_exact3d.py
 python3 test_r2_exact3d.py
 python3 greedy_r2_3d.py
 python3 test_greedy_r2_3d.py
+python3 verify_perspective_mapping.py
 ```
 
 The two test scripts write `experiment_results.csv` and
