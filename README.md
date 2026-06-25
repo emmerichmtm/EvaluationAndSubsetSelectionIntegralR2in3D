@@ -15,8 +15,9 @@ The code is intended to be transparent and reproducible. It is not optimized for
 - `greedy_r2_3d.py` - greedy subset selection using the exact evaluator as an oracle.
 - `test_greedy_r2_3d.py` - validation script comparing greedy selections to brute-force optima on small instances.
 - `greedy_experiment_results.csv` - output of `test_greedy_r2_3d.py`.
-- `integral_r2_3d_report_v14.tex` - patched report source with implementation appendices.
-- `integral_r2_3d_report_v14.pdf` - compiled report.
+- `integral_r2_3d_report_v17.tex` - patched report source with implementation appendices.
+- `integral_r2_3d_report_v17.pdf` - compiled report.
+- `verify_perspective_mapping.py` - a verification script for the perspective mapping
 
 ## Mathematical convention
 
