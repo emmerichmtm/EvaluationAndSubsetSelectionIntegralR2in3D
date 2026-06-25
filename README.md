@@ -94,7 +94,7 @@ The experiments also use only the Python standard library plus NumPy and Shapely
 
 ## Notes and limitations
 
-- The implementation is a clear reference implementation, not an optimized QR2-style code.
+- The implementation is a reference implementation of the proposed polynomial time algorithm, not an meant as a competitive optimized QR2 code.
 - The geometric arrangement is computed using double-precision polygon clipping through Shapely. Thus it is exact at the level of the symbolic subdivision idea, but numerically it is subject to floating-point and clipping tolerance.
 - The number of cells grows quickly with the number of points. The included tests use small instances, as expected for a direct arrangement implementation.
 - Greedy selection repeatedly calls the exact evaluator. For larger candidate sets, one would use lazy greedy, incremental updates, Monte Carlo estimates, or a specialized exact evaluator.
